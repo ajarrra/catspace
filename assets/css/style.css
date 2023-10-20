@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+}
+body {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #070707;
+  font-family: "Roboto";
+}
+.container {
+  width: 100%;
+  max-width: 940px;
+  margin: 0 auto;
+ 
+}
+.menu {
+  display: flex;
+}
+
