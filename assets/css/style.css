@@ -66,7 +66,6 @@ button {
 
 .menu a:hover {
   color: #f78434;
-
 }
 menu a:focus {
   color: #f78434;
@@ -143,15 +142,53 @@ nav {
   font-weight: 400;
 }
 
-.main_info_img{
-    width: 540px;
-height: 676px;
-flex-shrink: 0;
+.main_info_img {
+  width: 540px;
+  height: 676px;
+  flex-shrink: 0;
 }
 
-.main_logo{
-    margin-top: 104px;
+.main_logo {
+  margin-top: 104px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 55px;
+}
+
+h3 {
+  color: #323232;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 62px; 
+}
+p {
+  color: #323232;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px; /* 168.75% */
+  letter-spacing: 1.15px;
+}
+
+.provide_txt h3{
+    width: 374px;
+    margin-bottom: 20px;
+}
+.provide_txt p{
+    width: 374px;
+    margin-top: 20px;
+}
+
+.provide_txt button{
+    margin-top: 40px;
+}
+
+.provide{
     display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+  justify-content: flex-start; 
+  
+}
+
+.provide img{
+    padding-right: 32px;
 }
