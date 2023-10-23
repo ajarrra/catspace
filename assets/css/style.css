@@ -192,3 +192,9 @@ p {
 .provide img{
     padding-right: 32px;
 }
+.img_popul_details img{
+    border-radius: 15px;
+    width: 300px;
+    margin-left: -290px;
+    margin-top: 300px;
+}
