@@ -36,8 +36,13 @@ button {
   border: none;
   color: #fff;
   font-size: 16px;
-
+  
   font-weight: 700;
+  transition: 0.8S;
+}
+
+button:hover{
+    background: #a04809;
 }
 .navbar nav {
   display: flex;
@@ -275,9 +280,10 @@ p {
 
 .cards {
   display: flex;
-  align-items: baseline;
+  
   justify-content: space-between;
   margin-top: 45px;
+  margin-bottom: 112px;
 }
 
 .card_buyers {
@@ -289,6 +295,10 @@ p {
   box-shadow: 0px 40px 52px -22px rgba(0, 0, 0, 0.08);
   color: #fff;
   text-align: center;
+  transition: 0.5S;
+}
+.card_buyers:hover{
+    transform: scale(1.1);
 }
 
 .card_buyers h3 {
@@ -305,35 +315,20 @@ p {
   margin-bottom: 25px;
 }
 
-.card_buyers svg{
- margin-top: 40px;
- margin-bottom: 15px;
+.card_buyers svg {
+  margin-top: 40px;
+  margin-bottom: 15px;
 }
-.card_buyers button{
-    border-radius: 29px;
-background: #FFF;
-color: #f78434;
+.card_buyers button {
+  border-radius: 29px;
+  background: #fff;
+  color: #f78434;
+  transition: 0.5s;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.card_buyers button:hover{
+ background-color: #f0eeee;
+ color: #ffa260;
+}
 
 
 .card_seller {
@@ -341,13 +336,23 @@ color: #f78434;
   height: 365px;
   flex-shrink: 0;
   border-radius: 10px;
-  background: #f78434;
-  box-shadow: 0px 40px 52px -22px rgba(0, 0, 0, 0.08);
   color: #fff;
   text-align: center;
-  background: #fff;
+  background-color: #fff;
+  box-shadow: 9px 60px 52px 2px rgba(0, 0, 0, 0.08);
+  transition: 0.5S;
+}
 
-  box-shadow: 0px 40px 52px -22px rgba(1, 0, 0, 0.08);
+.card_seller:hover{
+    transform: scale(1.1);
+}
+
+.card_seller img{
+ margin-top: 40px;
+ margin-bottom: 15px;
+}
+.card_seller p{
+    margin-bottom: 25px;
 }
 
 
