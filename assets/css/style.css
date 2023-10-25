@@ -145,7 +145,6 @@ nav {
 .main_info_img {
   width: 540px;
   height: 676px;
-  flex-shrink: 0;
 }
 
 .main_logo {
@@ -160,7 +159,7 @@ h3 {
   color: #323232;
   font-size: 42px;
   font-weight: 700;
-  line-height: 62px; 
+  line-height: 62px;
 }
 p {
   color: #323232;
@@ -170,31 +169,102 @@ p {
   letter-spacing: 1.15px;
 }
 
-.provide_txt h3{
-    width: 374px;
-    margin-bottom: 20px;
+.provide_txt h3 {
+  width: 374px;
+  margin-bottom: 20px;
 }
-.provide_txt p{
-    width: 374px;
-    margin-top: 20px;
-}
-
-.provide_txt button{
-    margin-top: 40px;
+.provide_txt p {
+  width: 374px;
+  margin-top: 20px;
 }
 
-.provide{
+.provide_txt button {
+  margin-top: 40px;
+}
+
+.provide {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 100px;
+}
+
+.provide img {
+  padding-right: 32px;
+}
+.provide_txt {
+  margin-left: 107px;
+  margin-top: 68px;
+}
+
+.img_popul_details img {
+  border-radius: 15px;
+  width: 300px;
+  margin-left: -290px;
+  margin-top: 322px;
+}
+
+.using_product {
+  background-image: url(../img/Bg.jpg);
+  max-width: 1110px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  height: 464px;
+  position: relative;
+  margin-bottom: 145px;
+}
+
+.using_product_txt h3 {
+  color: white;
+  width: 342px;
+  color: #fff;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 62px; /* 147.619% */
+  letter-spacing: 0.8px;
+  margin-bottom: 15px;
+}
+
+.using_product_txt p {
+  width: 342px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px; /* 168.75% */
+  letter-spacing: 1.15px;
+}
+.using_product_txt {
+  margin-left: 55px;
+  position: absolute;
+  top: 92px;
+  left: 600px;
+}
+
+.btn_watch_now {
+  background: #fff;
+  color: #323232;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.treygolnik {
+  width: 12px;
+  height: 12px;
+  fill: #f78434;
+  margin-right: 7px;
+  display: flex;
+  align-items: center;
+}
+
+.using_product_btns{
     display: flex;
-  justify-content: flex-start; 
-  
-}
-
-.provide img{
-    padding-right: 32px;
-}
-.img_popul_details img{
-    border-radius: 15px;
-    width: 300px;
-    margin-left: -290px;
-    margin-top: 300px;
+    align-items: center;
+    margin-top: 30px;
+ 
 }
