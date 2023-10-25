@@ -262,9 +262,92 @@ p {
   align-items: center;
 }
 
-.using_product_btns{
-    display: flex;
-    align-items: center;
-    margin-top: 30px;
- 
+.using_product_btns {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
 }
+
+.who_do h3,
+p {
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-top: 45px;
+}
+
+.card_buyers {
+  width: 540px;
+  height: 365px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #f78434;
+  box-shadow: 0px 40px 52px -22px rgba(0, 0, 0, 0.08);
+  color: #fff;
+  text-align: center;
+}
+
+.card_buyers h3 {
+  color: #fff;
+  text-align: center;
+}
+
+.card_buyers p {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  line-height: 27px; /* 168.75% */
+  letter-spacing: 1.15px;
+  margin-bottom: 25px;
+}
+
+.card_buyers svg{
+ margin-top: 40px;
+ margin-bottom: 15px;
+}
+.card_buyers button{
+    border-radius: 29px;
+background: #FFF;
+color: #f78434;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card_seller {
+  width: 540px;
+  height: 365px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #f78434;
+  box-shadow: 0px 40px 52px -22px rgba(0, 0, 0, 0.08);
+  color: #fff;
+  text-align: center;
+  background: #fff;
+
+  box-shadow: 0px 40px 52px -22px rgba(1, 0, 0, 0.08);
+}
+
+
