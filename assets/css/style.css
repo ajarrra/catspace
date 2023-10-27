@@ -64,6 +64,7 @@ button {
 
   font-weight: 700;
   transition: 0.8s;
+  cursor: pointer;
 }
 
 button:hover {
@@ -188,10 +189,12 @@ nav {
 .provide_txt h3 {
   width: 374px;
   margin-bottom: 20px;
+  text-align: left;
 }
 .provide_txt p {
   width: 374px;
   margin-top: 20px;
+  text-align: left;
 }
 
 .provide_txt button {
@@ -247,6 +250,7 @@ nav {
   font-weight: 400;
   line-height: 27px; /* 168.75% */
   letter-spacing: 1.15px;
+  text-align: left;
 }
 .using_product_txt {
   margin-left: 55px;
@@ -391,6 +395,16 @@ p {
   display: flex;
   align-items: baseline;
   margin-bottom: 58px;
+  justify-content: space-between;
+}
+
+.thanks_for_txt h3{ 
+    text-align: left;
+    width: 450px;
+}
+.thanks_for_txt p {
+    text-align: left;
+    width: 398px;
 }
 
 .thanks_for_card {
@@ -500,7 +514,14 @@ p {
   color: #323232;
   font-size: 16px;
   font-weight: 700;
+
 }
+
+.get_experience_txt button:hover{
+    background: #c0c0c0;
+    color: #7f7f7f;
+}
+
 .get_experience_img img {
   margin-left: 543px;
   width: 478px;
@@ -509,7 +530,63 @@ p {
   margin-top: -56px;
 }
 
-footer{
-    margin-top: 91px;
+footer {
+  margin-top: 91px;
+  margin-bottom: 82px;
+}
+
+.footer_txt {
+  display: flex;
+  align-items:normal;
+  justify-content: space-between;
+}
+
+footer a {
+  color: #323232;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 43px; /* 192.857% */
+  letter-spacing: 0.5px;
+  text-decoration: none;
+}
+
+footer h6 {
+  color: #323232;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin-bottom: 18px;
+}
+.footer_logo {
+  width: 306px;
+  height: 173px;
+  flex-shrink: 0;
+ margin-top: -13px;
+}
+
+
+.privacy {
+  width: 147px;
+  height: 197px;
+  flex-shrink: 0;
+}
+.legaly {
+  width: 136px;
+  height: 197px;
+  flex-shrink: 0;
+}
+
+.contact {
+  width: 134px;
+  height: 157px;
+  flex-shrink: 0;
+}
+
+
+.footer_logo p{
+text-align: left;
+margin-bottom: 40px;
+margin-top: 18px;
 }
 
