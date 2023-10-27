@@ -398,6 +398,7 @@ p {
   align-items: baseline;
   justify-content: space-between;
   transition: 0.5s;
+ 
 }
 
 .thanks_for_card p {
@@ -450,4 +451,16 @@ p {
 .thanks_for_card .lyon:hover {
   box-shadow: 0px 10px 52px 0px rgba(0, 0, 0, 0.08);
   transform: scale(1.1);
+}
+
+
+.test{
+ margin-top: -430px;
+ margin-left: 1070px;
+}
+
+.test_two{
+    margin-left: 277px;
+    margin-top: 85px;
+    transition: 0.5s;
 }
