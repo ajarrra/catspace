@@ -30,6 +30,20 @@ h6 {
   font-size: 18px;
 }
 
+h3 {
+  color: #323232;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 62px;
+}
+p {
+  color: #323232;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px; /* 168.75% */
+  letter-spacing: 1.15px;
+}
+
 p {
   color: #323232;
   font-family: Poppins;
@@ -169,20 +183,6 @@ nav {
   justify-content: space-between;
   align-items: baseline;
   margin-bottom: 55px;
-}
-
-h3 {
-  color: #323232;
-  font-size: 42px;
-  font-weight: 700;
-  line-height: 62px;
-}
-p {
-  color: #323232;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 27px; /* 168.75% */
-  letter-spacing: 1.15px;
 }
 
 .provide_txt h3 {
@@ -398,7 +398,6 @@ p {
   align-items: baseline;
   justify-content: space-between;
   transition: 0.5s;
- 
 }
 
 .thanks_for_card p {
@@ -453,14 +452,59 @@ p {
   transform: scale(1.1);
 }
 
-
-.test{
- margin-top: -430px;
- margin-left: 1070px;
+.thanks_for {
+  margin-bottom: 395px;
 }
 
-.test_two{
-    margin-left: 277px;
-    margin-top: 85px;
-    transition: 0.5s;
+.test {
+  margin-top: -430px;
+  margin-left: 1070px;
+}
+
+.test_two {
+  margin-left: 277px;
+  margin-top: 85px;
+  transition: 0.5s;
+}
+
+.get_experience {
+  background-image: url(../img/bgtwo.jpg);
+  flex-shrink: 0;
+  height: 492px;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.get_experience_txt {
+  position: absolute;
+  margin-top: 160px;
+  margin-left: 23px;
+}
+.get_experience_txt h3 {
+  color: #fff;
+  width: 359px;
+}
+
+.get_experience_txt p {
+  width: 342px;
+  color: #fff;
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.get_experience_txt button {
+  border-radius: 29px;
+  background: #fff;
+  color: #323232;
+  font-size: 16px;
+  font-weight: 700;
+}
+.get_experience_img img {
+  margin-left: 543px;
+  width: 478px;
+  height: 547px;
+  flex-shrink: 0;
+  margin-top: -56px;
 }
