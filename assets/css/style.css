@@ -397,11 +397,12 @@ p {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
+  transition: 0.5s;
 }
 
 .thanks_for_card p {
   margin-top: 31px;
-  color: #7415b3;
+  color: #323232;
   line-height: 27px; /* 168.75% */
   letter-spacing: 1.15px;
   width: 292px;
@@ -410,12 +411,43 @@ p {
   margin-bottom: 23px;
 }
 
-.thanks_for_card h6{
-    margin-left: 29px;
+.thanks_for_card h6 {
+  margin-left: 29px;
 }
 
+.thanks_for_card a {
+  color: #58bebf;
+  font-size: 16px;
+  text-align: left;
+  margin-left: 29px;
+}
 
+.thanks_for_card .baltimore {
+  transition: 0.5s;
+}
+.thanks_for_card .baltimore a {
+  color: #f78434;
+}
 
+.thanks_for_card .baltimore:hover {
+  box-shadow: 0px 10px 52px 0px rgba(0, 0, 0, 0.08);
+  transform: scale(1.1);
+}
 
+.thanks_for_card .cleveland {
+  transition: 0.5s;
+}
 
+.thanks_for_card .cleveland:hover {
+  box-shadow: 0px 10px 52px 0px rgba(0, 0, 0, 0.08);
+  transform: scale(1.1);
+}
 
+.thanks_for_card .lyon {
+  transition: 0.5s;
+}
+
+.thanks_for_card .lyon:hover {
+  box-shadow: 0px 10px 52px 0px rgba(0, 0, 0, 0.08);
+  transform: scale(1.1);
+}
